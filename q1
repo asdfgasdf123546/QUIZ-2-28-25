@@ -1,9 +1,6 @@
 def countdown_launch(n):
-    
-    
-    for i in range (n, 0, -1):
-        
-        print(f"{i}!!", end=" ")
-    print("Liftoff!!")
+    for i in range(n, 0, -1):
+        print(i, "...", end=" ")
+    print("Liftoff")
 
 countdown_launch(5)
